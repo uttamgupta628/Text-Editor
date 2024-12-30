@@ -1,0 +1,31 @@
+button.is-active {
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #f8f8f8;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .outputdiv{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 80px;
+    max-width: 50vw;
+    height: 20vh;
+  }
+  .main_container{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: fit-content;
+    padding: 50px;
+  }
